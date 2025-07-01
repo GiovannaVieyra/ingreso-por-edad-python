@@ -1,0 +1,37 @@
+-------------------------------
+Problematica:
+El usuario quiere saber si puede entrar a un boliche segun su edad 
+-------------------------------
+
+-------------------------------
+Algoritmo:
+1. Pedir al usuario que ingrese la edad del cliente
+2. Verificar si la edad ingresada cumple con el requisito para ingresar al boliche 
+3. Mostrar al usuario si el cliente puede o no ingresar al boliche 
+-------------------------------
+
+-------------------------------
+Pseudocodigo:
+
+Inicio 
+
+    # Paso 1: Pedir al usuario que ingrese la edad del cliente
+    Mostrar mensaje: "Por favor, ingrese la edad del cliente: "
+    Leer el dato ingresado y asignarlo a la variable edad 
+
+    # Paso 2: Verificar si la edad ingresada cumple con el requisito para ingresar al boliche 
+    Si edad es >= 18 entonces 
+        asignarle a la variable permitido que sea verdadero 
+    Sino
+        asignarle a la variable permitido que sea falso 
+    Fin Si
+
+    # Paso 3: Mostrar al usuario si el cliente puede o no entrar al boliche 
+
+    Si permitido es verdadero   
+        Mostrar mensaje: "!El cliente puede ingresar!"
+    Si no 
+        Mostrar mensaje: "El cliente no puede ingresar"
+    Fin Si 
+
+Fin
